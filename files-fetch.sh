@@ -7,6 +7,8 @@
 cd $(dirname $0)
 source ./config.sh
 
+disease_api_url=https://disease-info-api.herokuapp.com
+
 ## ##################################################
 ## create directories
 test -d ./data || mkdir ./data
